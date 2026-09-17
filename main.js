@@ -1,7 +1,7 @@
 const { app, BrowserWindow, shell } = require('electron');
 const path = require('path');
 
-const APP_URL = 'https://crewboard-gamma.vercel.app';
+const APP_URL = 'https://flotasur.vercel.app';
 
 function createWindow() {
   const win = new BrowserWindow({

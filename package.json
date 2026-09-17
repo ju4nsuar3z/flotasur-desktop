@@ -1,7 +1,7 @@
 {
-  "name": "crewboard-desktop",
+  "name": "flotasur-desktop",
   "version": "1.0.0",
-  "description": "CrewBoard como aplicación de escritorio",
+  "description": "FlotaSur como aplicación de escritorio",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -16,8 +16,8 @@
     "png-to-ico": "^3.0.2"
   },
   "build": {
-    "appId": "com.crewboard.desktop",
-    "productName": "CrewBoard",
+    "appId": "com.flotasur.desktop",
+    "productName": "FlotaSur",
     "files": ["main.js", "icon.ico", "package.json"],
     "win": {
       "target": ["nsis"],
