@@ -1,7 +1,7 @@
 {
-  "name": "flotasur-desktop",
+  "name": "mareflota-desktop",
   "version": "1.0.0",
-  "description": "FlotaSur como aplicación de escritorio",
+  "description": "Mareflota como aplicación de escritorio",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -16,8 +16,8 @@
     "png-to-ico": "^3.0.2"
   },
   "build": {
-    "appId": "com.flotasur.desktop",
-    "productName": "FlotaSur",
+    "appId": "com.mareflota.desktop",
+    "productName": "Mareflota",
     "files": ["main.js", "icon.ico", "package.json"],
     "win": {
       "target": ["nsis"],
